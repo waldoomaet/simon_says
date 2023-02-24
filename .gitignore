@@ -1,0 +1,35 @@
+.pio
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
+
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+circuits/*/*.000
+circuits/*/*.bak
+circuits/*/*.bck
+circuits/*/*.kicad_pcb-bak
+circuits/*/*.kicad_sch-bak
+circuits/*/*-backups
+circuits/*/*.kicad_prl
+circuits/*/*.sch-bak
+circuits/*/*~
+circuits/*/_autosave-*
+circuits/*/*.tmp
+circuits/*/*-save.pro
+circuits/*/*-save.kicad_pcb
+circuits/*/fp-info-cache
+
+# Netlist files (exported from Eeschema)
+circuits/*/*.net
+
+# Autorouter files (exported from Pcbnew)
+circuits/*/*.dsn
+circuits/*/*.ses
+
+# Exported BOM files
+circuits/*/*.xml
+circuits/*/*.csv
